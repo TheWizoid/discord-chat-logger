@@ -32,5 +32,5 @@ class Bot(discord.Client):
         chatlog.close()
 
 
-a = Bot()
-a.run("MjIxMDQ5MTQ4NTU4ODAyOTQ0.CqpLwA.MGMOmRJR7TQNXYzaxXIfW60WNUU")
+bot = Bot()
+bot.run("token")
